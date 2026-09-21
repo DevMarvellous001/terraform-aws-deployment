@@ -16,4 +16,4 @@ crash.*.log
 
 # Node (if building frontend/backend locally)
 node_modules/
-dist/
+dist/.terraform/
