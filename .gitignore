@@ -1,0 +1,19 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+crash.*.log
+
+# Environment secrets
+.env
+
+# OS / editor
+.DS_Store
+*.swp
+
+# Node (if building frontend/backend locally)
+node_modules/
+dist/
